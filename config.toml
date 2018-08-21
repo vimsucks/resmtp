@@ -1,0 +1,7 @@
+mode = "debug"
+listen = "127.0.0.1"
+port = 8080
+
+[database]
+type = "mysql" # only support mysql yet
+url = "root:root@/resmtp?charset=utf8&parseTime=True"
